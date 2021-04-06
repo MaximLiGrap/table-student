@@ -1,0 +1,68 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.btn {
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.table {
+    padding: 10px;
+}
+
+th {
+    border: 1px solid gray;
+}
+
+.input {
+    height: 50px;
+    max-width: 300px;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid blue;
+    background-color: bisque;
+}
+
+.form {
+    padding: 10px;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    width: max-content;
+}
+
+td {
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+.close {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    opacity: 0.3;
+    border: unset;
+    }
+    .close:hover {
+    opacity: 1;
+    }
+    .close:before, .close:after {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+    }
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
